@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    color: goldenrod;
+    text-decoration: underline;
+    text-shadow: -2px -2px black;
+}
+h2{
+    text-align: center;
+    color: brown;
+    text-decoration: italics;
+    text-shadow: -2px -2px black;
+}

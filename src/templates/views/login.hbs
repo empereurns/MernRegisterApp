@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{!-- Importing Header code from Header.hbs --}}
+{{>header}}
+</head>
+<body>
+{{!-- Importing Navbar code from navbar.hbs --}}
+  {{>navbar}}
+{{!-- Jumbotron Bootstrap --}}
+  <div class="jumbotron">
+    <h1>MERN Registration App</h1>
+    <h2>Enter your Login Email Address and Password</h2>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">E-mail address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter E-mail">
+    {{!-- Adding information using small tag --}}
+    <small id="emailHelp" class="form-text text-muted">Your data is secured.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Login</button>
+  {{!-- Login Button to enter database --}}
+</form>
+</div>
+</body>`
+</html>
+    

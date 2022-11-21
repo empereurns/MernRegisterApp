@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>header}}
+</head>
+<body>
+  {{!-- Navbar Starts --}}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  {{!-- Navbar Main Title --}}
+  {{!-- Linking Main Title to the index page --}}
+  <a class="navbar-brand" href="http://localhost:5000/"><b>MERN Registration App</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+    {{!-- Elements of Navbar --}}
+    {{!-- Linking Register Button to Register Page --}}
+      <a class="nav-item nav-link active" href="/register"><b>Register</b><span class="sr-only">(current)</span></a>
+    {{!-- Linking Login Button to Login Page --}}
+      <a class="nav-item nav-link" href="/login"><b>Login</b></a>
+    </div>
+  </div>
+</nav>
+{{!-- Navbar Ends --}}
+</body>`
+</html>
